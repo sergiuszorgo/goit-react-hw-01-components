@@ -18,18 +18,6 @@ const Statistics = ({ title, stats }) => {
               </li>
             );
           })}
-          {/* <li className={s.item}>
-      <span className={s.label}>.mp3</span>
-      <span className={s.percentage}>14%</span>
-    </li>
-    <li className={s.item}>
-      <span className={s.label}>.pdf</span>
-      <span className={s.percentage}>41%</span>
-    </li>
-    <li className={s.item}>
-      <span className={s.label}>.mp4</span>
-      <span className={s.percentage}>12%</span>
-    </li> */}
         </ul>
       </section>
     </>
@@ -37,8 +25,9 @@ const Statistics = ({ title, stats }) => {
 };
 
 export default Statistics;
+
 Statistics.defaultProps = {
-  title: "string",
+  title: "title",
 };
 Statistics.propTypes = {
   title: PropTypes.string,

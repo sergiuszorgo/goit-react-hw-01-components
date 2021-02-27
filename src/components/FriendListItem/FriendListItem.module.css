@@ -1,0 +1,22 @@
+.onLine {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #55ac57;
+}
+.offLine {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fc5450;
+}
+.avatar {
+  margin: 0px 20px;
+  width: 58px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 700;
+  margin: auto 0px;
+}

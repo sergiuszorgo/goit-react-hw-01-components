@@ -1,0 +1,14 @@
+.transactionHistory {
+  width: 700px;
+  padding: 0;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: white;
+}
+.head {
+  color: white;
+  background-color: #00bcd5;
+}
+.rail:nth-child(even) {
+  background-color: #ecf1f4;
+}

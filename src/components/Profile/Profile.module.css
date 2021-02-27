@@ -1,9 +1,29 @@
 .profile {
-  /* display: block;
-  width: 200; */
+  width: 400;
   padding: 20px;
   margin: auto;
   text-align: center;
-  background: #e7ecf2;
-  color: #1f3349;
+  background-color: white;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+}
+.name {
+  font-size: 26px;
+  font-weight: 500;
+}
+.tag,
+.location {
+  color: #768696;
+}
+.stats {
+  list-style: none;
 }
