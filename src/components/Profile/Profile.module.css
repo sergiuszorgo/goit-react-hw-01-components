@@ -1,9 +1,10 @@
 .profile {
   width: 400;
-  padding: 20px;
-  margin: auto;
+  padding: 0px;
+  margin-bottom: 30px;
   text-align: center;
   background-color: white;
+  box-shadow: 4px 4px 5px -3px rgba(34, 60, 80, 0.2);
 }
 .description {
   display: flex;
@@ -19,11 +20,33 @@
 .name {
   font-size: 26px;
   font-weight: 500;
+  margin: 0 0 5px;
 }
 .tag,
-.location {
+.location,
+.label {
   color: #768696;
+  margin: 0 0 5px;
 }
 .stats {
+  display: flex;
   list-style: none;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #768696;
+}
+.quantity {
+  font-weight: bold;
+}
+.stats li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% / 3);
+  padding: 20px;
+}
+.stats li:nth-child(even) {
+  border-left: 1px solid #768696;
+  border-right: 1px solid #768696;
 }
