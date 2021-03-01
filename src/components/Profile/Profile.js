@@ -35,6 +35,7 @@ const Profile = ({ name, tag, location, avatar, stats }) => {
 };
 
 export default Profile;
+
 Profile.propTypes = {
   name: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
